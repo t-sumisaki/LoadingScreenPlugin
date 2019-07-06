@@ -1,0 +1,23 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "LoadingScreen",
+  "Description": "Simple LoadingScreen modules.",
+  "Category": "Misc",
+  "CreatedBy": "@T_Sumisaki",
+  "CreatedByURL": "https://twitter.com/T_Sumisaki",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "https://github.com/t-sumisaki/LoadingScreenPlugin",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "LoadingScreen",
+      "Type": "ClientOnly",
+      "LoadingPhase": "PreLoadingScreen"
+    }
+  ]
+}

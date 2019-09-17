@@ -173,14 +173,10 @@ private:
 			// Create category
 			ISettingsContainerPtr SettingsContainer = SettingsModule->GetContainer("Project");
 
-			SettingsContainer->DescribeCategory("Plugins",
-				LOCTEXT("RuntineGeneralSettingsName", "Plugins"),
-				LOCTEXT("RuntimeGeneralSettingsDescription", "Base configuraion for loading screen module."));
-
 			// Register settings
 			ISettingsSectionPtr SettingsSection = SettingsModule->RegisterSettings("Project", "Plugins", "LoadingScreen",
-				LOCTEXT("RuntimeGeneralSettingsName", "LoadingScreen"),
-				LOCTEXT("RuntimeGeneralSettingsDescription", "Base configuration for loading screen module"),
+				LOCTEXT("LoadingScreenSettingsName", "LoadingScreen"),
+				LOCTEXT("LoadingScreenSettingsDescription", "Configure loading screen plug-in."),
 				GetMutableDefault<ULoadingScreenSettings>()
 			);
 
